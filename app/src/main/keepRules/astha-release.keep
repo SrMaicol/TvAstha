@@ -1,0 +1,7 @@
+# Astha TV — narrow R8 keep rules
+# Keep only the JNI entry point explicitly required by jlibtorrent.
+-keep class com.frostwire.jlibtorrent.swig.libtorrent_jni { *; }
+
+# Preserve useful source information for crash retracing without keeping app classes.
+-keepattributes SourceFile,LineNumberTable
+-renamesourcefileattribute SourceFile

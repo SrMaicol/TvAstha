@@ -1,0 +1,6 @@
+{
+  "name": "Astha TV",
+  "description": "Streaming, torrent playback, and AppGallery integrity verification app",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
